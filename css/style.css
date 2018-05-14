@@ -78,12 +78,51 @@ html {
 #sign-up-form > form > input {
     margin-right: 30px;
 }
-#sign-up-form > form > input[type="text"],
-#sign-up-form > form > input[type="password"] {
+.input-field {
+    padding-left: 21px;
+
     width: 292px;
     height: 50px;
     border: 1px solid #5d5948;
     border-radius: 2px;
 
     background-color: transparent;
+}
+
+.input-field[type="text"]::-moz-placeholder {
+    color: #fff;
+}
+.input-field[type="text"]::-webkit-input-placeholder {
+    color: #fff;
+}
+.input-field[type="text"]::-ms-input-placeholder {
+    color: #fff;
+}
+.input-field[type="text"]::placeholder {
+    color: #fff;
+}
+
+.input-field[type="password"]::-moz-placeholder {
+    color: #fff;
+    opacity: 0.3;
+}
+.input-field[type="password"]::-webkit-input-placeholder {
+    color: #fff;
+    opacity: 0.3;
+}
+.input-field[type="password"]::-ms-input-placeholder {
+    color: #fff;
+    opacity: 0.3;
+}
+.input-field[type="password"]::placeholder {
+    color: #fff;
+    opacity: 0.3;
+}
+.sub-btn {
+    width: 125px;
+    height: 50px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+
+    background-color: #fff;
 }
