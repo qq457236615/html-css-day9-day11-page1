@@ -1,0 +1,89 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font:
+     16px/1.2 
+     'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/* 头部 */
+.main-header {
+    width: 1600px;
+    height: 990px;
+    padding-top: 203px;
+
+    text-align: center;
+
+    background: url(../img/Background.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.main-tit {
+    margin: 0 auto 75px;;
+
+    font-size: 62px;
+    font-weight: 400;
+    line-height: 72px;
+
+    color: #fff;
+}
+.main-p {
+    margin-bottom: 98px;
+
+    font-size: 20px;
+    line-height: 1.6;
+
+    color: #fff;
+    opacity: 0.7;
+}
+#sign-up-form {
+    margin: 0 auto;
+
+    width: 970px;
+    height: 250px;
+    border: 1px solid #54514e;
+    border-radius: 2px;
+}
+#sign-up-form {
+    padding-top: 54px;
+}
+#sign-up-form > .tit {
+    margin-bottom: 13px;
+
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    line-height: 1.75;
+
+    color: #fff;
+}
+#sign-up-form > .description {
+    margin-bottom: 45px;
+
+    font-size: 12px;
+    letter-spacing: 1.8px;
+    text-transform: uppercase;
+
+    color: #fff;
+    opacity: 0.3;
+}
+#sign-up-form > form > input {
+    margin-right: 30px;
+}
+#sign-up-form > form > input[type="text"],
+#sign-up-form > form > input[type="password"] {
+    width: 292px;
+    height: 50px;
+    border: 1px solid #5d5948;
+    border-radius: 2px;
+
+    background-color: transparent;
+}
