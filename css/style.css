@@ -22,6 +22,7 @@ html {
 .main-header {
     width: 1600px;
     height: 990px;
+    margin: 0 auto;
     padding-top: 203px;
 
     text-align: center;
@@ -44,8 +45,7 @@ html {
     font-size: 20px;
     line-height: 1.6;
 
-    color: #fff;
-    opacity: .7;
+    color: #ffffffb3;
 }
 #sign-up-form {
     margin: 0 auto;
@@ -76,8 +76,7 @@ html {
     letter-spacing: 1.8px;
     text-transform: uppercase;
 
-    color: #fff;
-    opacity: .3;
+    color: #ffffffb3;
 }
 #sign-up-form > form > input {
     margin-right: 30px;
@@ -107,20 +106,16 @@ html {
 }
 
 .input-field[type="password"]::-moz-placeholder {
-    color: #fff;
-    opacity: .3;
+    color: #ffffffb3;
 }
 .input-field[type="password"]::-webkit-input-placeholder {
-    color: #fff;
-    opacity: .3;
+    color: #ffffffb3;
 }
 .input-field[type="password"]::-ms-input-placeholder {
-    color: #fff;
-    opacity: .3;
+    color: #ffffffb3;
 }
 .input-field[type="password"]::placeholder {
-    color: #fff;
-    opacity: .3;
+    color: #ffffffb3;
 }
 .sub-btn {
     width: 125px;
@@ -131,6 +126,10 @@ html {
     background-color: #fff;
 }
 /* main */
+main {
+    width: 1600px;
+    margin: 0 auto;
+}
 /* feature1 */
 .feature1-warp {
     height: 710px;
@@ -139,7 +138,7 @@ html {
     background-color: #fff;
 }
 .feature1-tit {
-    width: 657px;
+    min-width: 1027px;
     height: 143px;
     margin: 0 auto 81px;;
 
@@ -202,6 +201,55 @@ html {
     font-size: 16px;
     line-height: 1.625;
 
-    color: #141414;
-    opacity: .7;
+    color: #141414b3;
+}
+/* call-to-action */
+.call-to-action {
+    height: 800px;
+    padding-top: 104px;
+    padding-left: 315px;
+
+    background: url(../img/Background2.png) no-repeat center center;
+    background-size: 100% 100%;
+}
+.call-to-action > .text-area-warp,
+.call-to-action > .data-warp {
+    height: 600px;
+}
+.call-to-action > .text-area-warp {
+    float: left;
+
+    width: 505px;
+    padding-top: 79px;
+}
+.call-to-action > .data-warp {
+    float: right;
+
+    width: 645px;
+    padding-top: 73.96px;
+}
+.call-to-action > .text-area-warp > h2,
+.call-to-action > .text-area-warp > p {
+    width: 344px;
+}
+.call-to-action > .text-area-warp > h2 {
+    margin-bottom: 41.96px;
+
+    font-size: 42px;
+    line-height: 1.24;
+    font-weight: 400;
+
+    color: #fff;
+}
+.call-to-action > .text-area-warp > h2::first-line {
+    line-height: 1;
+}
+.call-to-action > .text-area-warp > p {
+    font-size: 18px;
+    line-height: 1.56;
+
+    color: #ffffffb3;
+}
+.call-to-action > .text-area-warp > p::first-line {
+    line-height: 1;
 }
