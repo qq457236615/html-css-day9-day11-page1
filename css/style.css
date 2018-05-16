@@ -213,7 +213,7 @@ main {
     background-size: 100% 100%;
 }
 .call-to-action > .text-area-warp,
-.call-to-action > .data-warp {
+.call-to-action > .data {
     height: 600px;
 }
 .call-to-action > .text-area-warp {
@@ -222,34 +222,63 @@ main {
     width: 505px;
     padding-top: 79px;
 }
-.call-to-action > .data-warp {
+.call-to-action > .data {
     float: right;
 
     width: 645px;
-    padding-top: 73.96px;
+
+    background: 
+        url(../img/IPad.png) no-repeat left top,
+        url(../img/Screen.png) no-repeat 60px 30px;
 }
 .call-to-action > .text-area-warp > h2,
 .call-to-action > .text-area-warp > p {
     width: 344px;
 }
 .call-to-action > .text-area-warp > h2 {
-    margin-bottom: 41.96px;
+    margin-bottom: 36.92px;
 
     font-size: 42px;
+    /* 行距5.04px */
     line-height: 1.24;
     font-weight: 400;
 
     color: #fff;
 }
-.call-to-action > .text-area-warp > h2::first-line {
-    line-height: 1;
-}
 .call-to-action > .text-area-warp > p {
+    margin-bottom: 52.96px;
+
     font-size: 18px;
+    /* 行距5.04px */
     line-height: 1.56;
 
     color: #ffffffb3;
 }
-.call-to-action > .text-area-warp > p::first-line {
-    line-height: 1;
+.call-to-action > .text-area-warp > button {
+    float: left;
+
+    height: 60px;
+    border-radius: 2px;
+
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    line-height: 60px;
 }
+.call-to-action > .text-area-warp > .btn1 {
+    width: 240px;
+    border: 1px solid #fff;
+    margin-right: 30px;
+
+    color: #141414;
+    background-color: #fff;
+}
+.call-to-action > .text-area-warp > .btn2 {
+    width: 235px;
+    border: 1px solid #70756f;
+
+    color: #fff;
+    background-color: transparent;
+}
+/* data */
