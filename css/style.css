@@ -281,4 +281,49 @@ main {
     color: #fff;
     background-color: transparent;
 }
-/* data */
+/* feature2 */
+.feature2-warp {
+    padding: 94px 0 75px;
+
+    text-align: center;
+
+    background-color: #fff;
+}
+.feature2-warp > .tit {
+    margin-bottom: 80px;
+
+    font-size: 42px;
+    font-weight: 400;
+    line-height: 52px;
+
+    color: #141414;
+}
+.logos {
+    width: 950px;
+    margin: 0 auto;
+}
+.logos > .logo {
+    float: left;
+
+    width: 230px;
+    margin-right: 86px;
+}
+.logo > .logo-tit {
+    height: 34px;
+    margin-bottom: 38px;
+}
+.singleton {
+    background: url(../img/Singleton.png) no-repeat center center;
+}
+.hero {
+    background: url(../img/Hero.png) no-repeat center center;
+}
+.portland {
+    background: url(../img/Portland.png) no-repeat center center;
+}
+.logo > .description {
+    font-size: 16px;
+    line-height: 26px;
+
+    color: #141414;
+}
