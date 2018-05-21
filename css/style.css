@@ -7,6 +7,9 @@
 ul {
     list-style: none;
 }
+address {
+    font-style: normal;
+}
 html {
     font:
      16px/1.2 
@@ -486,4 +489,108 @@ main {
 }
 .userpic .on {
     display: block;
+}
+/* contact */
+.contact {
+    border-bottom: 1px solid #f2f2f2;
+    padding-top: 70px;
+}
+.email-form {
+    float: left;
+
+    width: 470px;
+    padding: 51px 0 0 51px;
+    border: 1px solid #d4d3d3;
+    border-radius: 10px;
+}
+.email-form > fieldset {
+    width: 370px;
+    border: none;
+}
+.form-tit {
+    margin-bottom: 47px;
+    -webkit-padding-start: 0;
+
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2.4px;
+
+    color: #141414;
+}
+.email-form input {
+    display: block;
+
+    height: 50px;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+.email-form input,
+.email-form textarea {
+    width: 100%;
+    border: 1px solid #d4d3d3;
+    border-radius: 2px;
+}
+.email-form textarea {
+    display: block;
+
+    height: 144px;
+    margin-bottom: 30px;
+    padding: 20px;
+
+    resize: none;
+}
+.submit-btn {
+    background-color: #141414;
+    border-radius: 2px;
+
+    color: #fff;
+}
+.contact .submit-btn {
+    border: 1px solid #141414;
+}
+.contacts {
+    float: right;
+
+    width: 354px;
+    padding-top: 88px;
+}
+.contacts > .tit {
+    margin-bottom: 34px;
+
+    font-size: 42px;
+
+    color: #141414;
+}
+.contacts > .content {
+    margin-bottom: 60px;
+
+    font-size: 16px;
+    line-height: 1.625;
+
+    color: #141414b3;
+}
+.contacts address {
+    font-size: 16px;
+    line-height: 1.625;
+
+    color: #141414;
+}
+.contacts address > p {
+   padding-left: 38px;
+
+   background-repeat: no-repeat;
+   background-position: left 5px;
+}
+.contacts .map {
+    padding-bottom: 27px;
+
+    background-image: url(../img/Map\ Icon.png);
+}
+.contacts .phone {
+    padding-bottom: 30px;
+
+    background-image: url(../img/Phone\ Icon.png);
+}
+.contacts .mail {
+    background-image: url(../img/Mail\ Icon.png);
 }
