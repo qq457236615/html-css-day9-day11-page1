@@ -597,6 +597,8 @@ main {
 }
 /* footer */
 footer {
+    width: 1600px;
+    margin: 0 auto;
     padding: 88px 227px 94px 216px;
 
     background-color: #141414;
