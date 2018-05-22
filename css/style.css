@@ -594,3 +594,118 @@ main {
 .contacts .mail {
     background-image: url(../img/Mail\ Icon.png);
 }
+/* footer */
+footer {
+    padding: 88px 227px 94px 216px;
+
+    background-color: #141414;
+}
+.menus {
+    float: left;
+}
+.menus h3 {
+    margin-bottom: 36px;
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.menus > li {
+    float: left;
+}
+.menus ul > li {
+    margin-bottom: 30px;
+
+    font-size: 16px;
+
+    color: #ffffff4d;
+    cursor: pointer;
+}
+.menu1 {
+    margin-right: 172px;
+}
+.menu2 {
+    margin-right: 152px;
+}
+.social {
+    float: right;
+
+    width: 259px;
+}
+.social > h3 {
+    margin-bottom: 22.96px;
+
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 2.1px;
+    text-transform: uppercase;
+
+    color: #fff;
+}
+.social > p {
+    margin-bottom: 37.96px;
+
+    font-size: 18px;
+    /* 行高28.8px 行距5.04px */
+    line-height: 1.56;
+
+    color: #ffffff66;
+}
+.social > .icons > i {
+    float: left;
+
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 100% 100%;
+
+    cursor: pointer;
+}
+.social .icon1 {
+    margin-right: 28px;
+
+    width: 17px;
+    height: 14px;
+
+    background-image: url(../img/Twitter\ Icon.png);
+}
+.social .icon2 {
+    margin-right: 24px;
+
+    width: 9px;
+    height: 18px;
+
+    background-image: url(../img/Facebook\ Icon.png);
+}
+.social .icon3 {
+    margin-right: 24px;
+
+    width: 24px;
+    height: 15px;
+
+    background-image: url(../img/Google\ Icon.png);    
+}
+.social .icon4 {
+    margin-right: 30px;
+
+    width: 10px;
+    height: 16px;
+
+    background-image: url(../img/Tumbler\ Icon.png);    
+}
+.social .icon5 {
+    margin-right: 26px;
+
+    width: 14px;
+    height: 17px;
+
+    background-image: url(../img/Pinterest\ Icon.png);    
+}
+.social .icon6 {
+    width: 16px;
+    height: 15px;
+
+    background-image: url(../img/LinkedIn\ Icon.png);    
+}
