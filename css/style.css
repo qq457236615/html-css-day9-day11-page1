@@ -445,7 +445,6 @@ main {
     text-align: center;
 
     background-color: #141414a6;
-    cursor: pointer;
 }
 .on-bg > .name {
     margin-bottom: 21px;
@@ -474,6 +473,8 @@ main {
 
     background: no-repeat center center;
     background-size: 100% 100%;
+
+    cursor: pointer;
 }
 .circle:last-of-type {
     margin-right: 0;
@@ -487,7 +488,7 @@ main {
 .instagram {
     background-image: url(../img/Instagram.png);
 }
-.userpic .on {
+.userpic:hover .on-bg {
     display: block;
 }
 /* contact */
